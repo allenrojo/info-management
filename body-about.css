@@ -1,0 +1,46 @@
+.container-body{
+    padding-top:20px;
+    height:750px;
+    display:flex;
+    justify-content:center; 
+
+}
+.container-description{
+    height:600px;
+    width:500px
+}
+.container-thumbnail{
+    height:600px;
+    padding-top:20px;
+    padding-left:10px;
+}
+.thumbnail{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    
+}
+.description{
+    width:483px;
+}
+.description-title{
+    padding-top:20px;
+    font-family:Lato;
+    font-size:40px;
+    font-weight: 400;
+    font-style: italic;
+}
+.description-subtitle{
+    padding-top:40px;
+    font-family:Noto Sans;
+    font-size:18px;
+    font-weight:500;
+    color:rgb(50, 50, 50);
+}
+.description-text{
+    padding-top:40px;
+    font-family:Noto Sans;
+    font-size:15px;
+    font-weight:300;
+    color:rgb(50, 50, 50);
+}

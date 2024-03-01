@@ -1,0 +1,19 @@
+.container-header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:40px;
+}
+.container-logo{
+    height:80px;
+    position:absolute;
+    top:0px;
+    left:10px;
+    z-index:2;
+}
+.logo{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    
+}

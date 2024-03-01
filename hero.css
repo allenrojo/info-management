@@ -1,0 +1,11 @@
+.container-hero{
+    height:500px;
+}
+.hero-background{
+    height:500px;
+}
+.hero{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}

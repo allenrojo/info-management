@@ -1,0 +1,84 @@
+.container-body{
+    padding-top:20px;
+    height:920px;
+}
+.container-action{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+}
+.action-appointment{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+    position:relative;
+}
+.action-barber{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:300px;
+    position:relative;
+}
+.barber-one{
+    height:221px;
+    width:403px;
+    background-image: url('img/home-appointments.png');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease-out;
+    margin-right:10px;
+}
+.barber-one:hover{
+    background-image: url('img/tweed-logo-appointments.png');
+    background-size: cover;
+    background-position: center;
+}
+.barber-two{
+    height:221px;
+    width:403px;
+    background-image: url('img/home-barbers.png');
+    background-size: cover;
+    background-position: center;
+    transition: background-image 0.3s ease;
+    margin-left:10px;
+}
+.barber-two:hover{
+    background-image: url('img/tweed-logo-barbers.png');
+    background-size: cover;
+    background-position: center;
+}
+.container-description{
+    padding-top:20px;
+    height:600px;
+    display:flex;
+    justify-content:center;    
+}
+.thumbnail-container{
+    padding-top:50px;
+    height:600px;
+}
+.thumbnail{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+}
+.description{
+    width:483px;
+}
+.description-title{
+    padding-top:20px;
+    font-family:Lato;
+    font-size:40px;
+    font-weight: 400;
+    font-style: italic;
+}
+.description-text{
+    padding-top:40px;
+    font-family:Noto Sans;
+    font-size:15px;
+    font-weight:500;
+    color:rgb(50, 50, 50);
+}

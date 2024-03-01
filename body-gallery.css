@@ -1,0 +1,32 @@
+.container-body{
+    padding-top:20px;
+    height:1000px;
+    display:flex;
+    justify-content:center; 
+    flex-direction: column;
+}
+.row{
+    display:flex;
+    height:320px;
+    justify-content:center; 
+}
+.thumbnail-container{
+    height:300px;
+    width:400px;
+    margin:10px;
+    overflow: hidden;
+    position:relative;
+}
+.thumbnail-container img {
+    width: 100%; 
+    height: 100%; 
+    transition: transform 0.3s; 
+    object-fit:cover;
+    position:absolute;
+
+  }
+
+.thumbnail-container:hover img {
+    transform: scale(1.2); 
+    
+  }

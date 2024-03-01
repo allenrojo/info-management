@@ -1,0 +1,9 @@
+.container-main{
+    flex-direction:column;
+
+    position:relative;
+}
+body {
+    padding: 0;
+    margin: 0;
+  }

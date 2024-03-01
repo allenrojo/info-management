@@ -1,0 +1,33 @@
+.container-footer{
+    background-color:rgb(40, 40, 40);
+    display:flex;
+    justify-content:center;
+    align-items:top;
+    height:150px;
+}
+.footer-address{
+    width:200px;
+    font-family:Noto Sans;
+    font-size:15px;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    padding-right:20px;
+    padding-top:25px;
+}
+.hours-title{
+    width:200px;
+    font-family:Noto Sans;
+    font-size:20px;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    margin-left:200px;
+}
+.hours-text{
+    width:200px;
+    font-family:Noto Sans;
+    font-size:15px;
+    font-weight:500;
+    color:rgb(255, 255, 255);
+    margin-left:200px;
+
+}

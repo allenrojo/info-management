@@ -1,0 +1,31 @@
+.container-header{
+    background-color:rgba(10, 10, 10, 0.8);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:60px;
+    position:fixed;
+    z-index:1;
+    top: 0;
+    left: 0; 
+    right: 0; 
+
+}
+.header-logo{
+    margin:10px;
+    position:relative;
+}
+.logo{
+    padding-top:90px;
+    height:150px;
+}
+.header{
+    font-family:Noto Sans;
+    font-size:20px;
+    font-weight:500;
+    margin:30px;
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+
